@@ -1,3 +1,8 @@
+/*
+Fast Random Generator for use from single threaded data injection code. It is
+especially useful if you need to load test a service while generating random
+data. It that case, the random generator locks can become a bottleneck.
+*/
 package random // import "fluux.io/random"
 
 import (
